@@ -1,0 +1,13 @@
+export declare const WallInner: string;
+export declare const WallOuter: string;
+export declare const WindowInner: string;
+export declare const WindowOuter: string;
+export declare const DoorSingle: string;
+export declare const DoorDouble: string;
+export declare const StairsSingle: string;
+export declare const StairsCross: string;
+export declare const ChairA: string;
+export declare const PlantA: string;
+export declare const PlantB: string;
+export declare const PlantC: string;
+export declare const PlantD: string;
