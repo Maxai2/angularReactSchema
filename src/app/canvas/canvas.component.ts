@@ -61,7 +61,7 @@ export class CanvasComponent implements OnInit {
       canvas: this.canvas,
       keyEvent: Object.assign({}, defaultKeyboardEvent),
       canvasOption: mergedCanvasOption,
-      static: true  
+      static: true
     });
 
     this.handler.attachEventListener();
@@ -70,11 +70,10 @@ export class CanvasComponent implements OnInit {
       this.handler?.resizeWorkareaFit();
       this.handler?.setInteractionMode('grab');
 
-      this.ready = true; 
+      this.ready = true;
     };
 
     this.handler?.on('blueprint:load', onBlueprintLoad);
-    console.log(this.handler);
   }
 
   createObserver = () => {
